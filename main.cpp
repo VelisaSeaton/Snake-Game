@@ -27,7 +27,7 @@ void Setup(){
     score = 0;
 }
 void Draw(){
-    system("cls"); //system("clear"); - Linux
+    system("cls"); //system("clear");
     for (int i = 0; i < width+2; i ++)
         cout << "#";
     cout << endl;
